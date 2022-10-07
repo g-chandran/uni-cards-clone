@@ -1,5 +1,5 @@
 <script lang="ts">
-  import GradientText from "./GradientText.svelte";
+  import GradientText from "../Components/GradientText.svelte";
 </script>
 
 <section

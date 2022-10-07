@@ -1,6 +1,6 @@
 <script lang="ts">
-  import GradientText from "./GradientText.svelte";
-  import SecondaryButton from "./SecondaryButton.svelte";
+  import GradientText from "../Components/GradientText.svelte";
+  import SecondaryButton from "../Components/SecondaryButton.svelte";
 </script>
 
 <section
