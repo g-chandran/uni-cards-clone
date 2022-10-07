@@ -45,7 +45,7 @@
   {#if isOpen}
     <ul
       transition:slide={{ easing: cubicInOut, duration: 200 }}
-      class="text-white absolute w-full flex flex-col pb-4 font-semibold border-t border-t-white bg-black bg-opacity-90"
+      class="text-white absolute z-10 w-full flex flex-col pb-4 font-semibold border-t border-t-white bg-black bg-opacity-90"
     >
       <li class="flex justify-between items-center py-4 px-6 border-b">
         <a href="/">Pay 1/3rd Card</a>
