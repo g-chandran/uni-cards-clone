@@ -21,7 +21,7 @@
     </p>
   </div>
   <div
-    class="w-[96px] h-[96px] bg-gradient-to-tr from-green-400 to-yellow-400 flex justify-center items-center rounded-full my-12 mx-6"
+    class="w-[96px] h-[96px] bg-gradient-to-tr from-green-400 to-yellow-400 flex justify-center items-center rounded-full my-12 mx-6 lg:mx-auto"
   >
     <DownArrow style="font-size: 3rem" />
   </div>
