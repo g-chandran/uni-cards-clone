@@ -3,7 +3,7 @@
 </script>
 
 <section
-  class="h-[90vh] px-4 flex flex-col justify-end items-center gap-6 relative bg-[url(black_background_mobile.webp)] bg-cover"
+  class="h-[90vh] px-4 flex flex-col justify-end items-center gap-6 relative bg-cover"
 >
   <img src="card_asset.webp" alt="BG" class="w-[255px] absolute top-[10rem]" />
   <p class="font-semibold text-white text-3xl mb-[9rem]">
@@ -27,5 +27,11 @@
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+  }
+
+  section {
+    background: black;
+    background-image: url("black_background_mobile.webp");
+    background-size: cover;
   }
 </style>

@@ -7,7 +7,7 @@
   $: isOpen = false;
 </script>
 
-<header class="relative">
+<header class="relative w-full bg-black">
   <nav
     class="bg-black max-w-lg flex flex-row justify-between py-5 px-6 items-start"
   >
