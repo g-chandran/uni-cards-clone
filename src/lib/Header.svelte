@@ -2,10 +2,12 @@
   import Menu from "virtual:icons/material-symbols/menu";
   import Close from "virtual:icons/material-symbols/close";
   import RightArrow from "virtual:icons/material-symbols/arrow-forward-rounded";
-  $: isOpen = true;
+  import { slide } from "svelte/transition";
+  import { cubicInOut } from "svelte/easing";
+  $: isOpen = false;
 </script>
 
-<header class="">
+<header class="relative">
   <nav
     class="bg-black max-w-lg flex flex-row justify-between py-5 px-6 items-start"
   >
@@ -42,7 +44,8 @@
   </nav>
   {#if isOpen}
     <ul
-      class="text-white flex flex-col pb-4 font-semibold border-t border-t-white bg-black bg-opacity-90"
+      transition:slide={{ easing: cubicInOut, duration: 200 }}
+      class="text-white absolute w-full flex flex-col pb-4 font-semibold border-t border-t-white bg-black bg-opacity-90"
     >
       <li class="flex justify-between items-center py-4 px-6 border-b">
         <a href="/">Pay 1/3rd Card</a>
