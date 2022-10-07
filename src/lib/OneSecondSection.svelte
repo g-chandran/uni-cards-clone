@@ -4,7 +4,7 @@
 </script>
 
 <section
-  class="bg-black p-4 text-white flex flex-col gap-4 lg:flex-row lg:justify-center lg:items-center lg:gap-12"
+  class="bg-black p-4 text-white flex flex-col gap-4 lg:flex-row-reverse lg:justify-center lg:items-center lg:gap-12"
 >
   <div class="w-sm aspect-square">
     <video

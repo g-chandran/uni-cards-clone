@@ -7,9 +7,9 @@
   $: isOpen = false;
 </script>
 
-<header class="relative w-full bg-black">
+<header class="relative flex justify-center w-full bg-black">
   <nav
-    class="bg-black max-w-lg flex flex-row justify-between py-5 px-6 items-start"
+    class="flex flex-row justify-between py-5 px-6 items-center w-full max-w-7xl"
   >
     <span class="w-12 h-12 text-white mt-[-15px]">
       <svg
@@ -37,7 +37,7 @@
         <Menu style="font-size: 2em" />
       {/if}
     </span>
-    <div class="text-white hidden lg:visible">
+    <div class="text-white hidden lg:flex gap-12 font-bold tracking-wide">
       <a href="/">Pay 1/3rd Card</a>
       <a href="/">Pay 1/2 Card</a>
     </div>
