@@ -5,9 +5,11 @@
 
 <section class="bg-black p-4 text-white flex flex-col gap-4 mt-[-1px]">
   <video
-    muted={true}
-    playsinline={true}
-    disablepictureinpicture={true}
+    muted
+    playsinline
+    disablepictureinpicture
+    autoplay
+    loop
     class="w-full h-full"
   >
     <source src="/pay_half.mp4" type="video/mp4" /><source

@@ -4,7 +4,14 @@
 </script>
 
 <section class="bg-black p-4 text-white flex flex-col gap-4">
-  <video muted playsinline disablepictureinpicture class="w-full h-full">
+  <video
+    muted
+    playsinline
+    disablepictureinpicture
+    autoplay
+    loop
+    class="w-full h-full"
+  >
     <source src="/one-third.mp4" type="video/mp4" /><source
       src="/videos/one-third.webm"
       type="video/webm"
